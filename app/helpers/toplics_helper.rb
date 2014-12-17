@@ -1,0 +1,2 @@
+module ToplicsHelper
+end

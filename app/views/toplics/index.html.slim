@@ -1,0 +1,25 @@
+h1 Listing toplics
+
+table
+  thead
+    tr
+      th Title
+      th Description
+      th Linkwith
+      th
+      th
+      th
+
+  tbody
+    - @toplics.each do |toplic|
+      tr
+        td = toplic.title
+        td = toplic.description
+        td = toplic.linkwith
+        td = link_to 'Show', toplic
+        td = link_to 'Edit', edit_toplic_path(toplic)
+        td = link_to 'Destroy', toplic, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to 'New Toplic', new_toplic_path

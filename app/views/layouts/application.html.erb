@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<%= render partial:"layouts/head", object: @head  %>
+<body>
+  <div class="wrap">
+    <%= yield %>
+    <%= render partial:"layouts/foot", object: @foot   %>
+  </div>
+</body>
+</html>

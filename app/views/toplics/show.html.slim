@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @toplic.title
+p
+  strong Description:
+  = @toplic.description
+p
+  strong Linkwith:
+  = @toplic.linkwith
+
+= link_to 'Edit', edit_toplic_path(@toplic)
+'|
+= link_to 'Back', toplics_path
