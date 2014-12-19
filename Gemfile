@@ -33,6 +33,7 @@ gem 'activeresource', github: 'rails/activeresource'
 gem "bson_ext"
 
 gem "slim"
+gem "rake" , '~> 10.4.x'
 
 
 

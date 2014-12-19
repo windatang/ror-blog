@@ -3,6 +3,12 @@
 <%= render partial:"layouts/head", object: @head  %>
 <body>
   <div class="wrap">
+    <header>
+      <div class="main">
+        <h1><%=HEADING %></h1>
+        <h2><%=SUB_HEADING%></h2>
+      </div>
+    </header>
     <%= yield %>
     <%= render partial:"layouts/foot", object: @foot   %>
   </div>

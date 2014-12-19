@@ -199,6 +199,7 @@ DEPENDENCIES
   jquery-rails (>= 2.0.3)
   mongoid (~> 4.0.x)
   rails (= 4.2.0.rc1)
+  rake (~> 10.4.x)
   sass-rails (~> 4.0)
   sdoc (~> 0.4.0)
   slim
